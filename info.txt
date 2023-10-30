@@ -1,0 +1,15 @@
+
+
+Alright, so after many redos I finally ended up with a movie library.
+
+I started of doing a casino with a blackjack and roulette, but then I noticed that the last lab would contain blackjack, so I had to scratch that idea, so I kept the roulette logic, but then that didn't exactly make much sense, and felt very lackluster, so I decided to make a movie library instead (recently watched a movie and they mentioned blockbuster, and since it is halloween, I figured that it would be a cool throwback to the old time when you had to rent movies).
+
+Now when I created the library I started off building everything in the main.py file which was a recipie for disaster. As the code grew, it became more and more difficult to keep track of everything, so I decided to split it up into different files, and that made it a lot easier to keep track of everything.
+
+I usually create a main function and do things that way, but this time I decided to create a class for the menu, and that gave me some issues in regards to the UML diagram, but I think I managed to get it right (connections won't be entirely correct because I was unable to change the icons, but hopefully you get the point).
+
+The one main issue I had was with the movieLibrary class and keeping track of if a movie was rented, and then also how to index them so that I could keep track of them. I ended up using a dictionary, and that worked out pretty well. They all have their unique ID (which works in the current config where only one movie exists, but if I were to add more movies, I would have to change the way I index them, but I think I would be able to do that without too much trouble).
+
+Currently I index them with their unique ID (ex gl77 for the movie Star Wars: Episode IV - A New Hope) where GL stands for the director: George Lucas and the 77 stands for the year it was released: 1977. I think that is a pretty good way to index them, but I am sure there are better ways to do it, but to save time I went with that.
+
+Overall I think that the whole assignment turned out okay, but had I gone a different route from the beginning and just kept the original idea instead of changing it several times, I think that the project would have been a lot better, but I am okay with the result.
