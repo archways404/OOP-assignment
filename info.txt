@@ -13,3 +13,7 @@ The one main issue I had was with the movieLibrary class and keeping track of if
 Currently I index them with their unique ID (ex gl77 for the movie Star Wars: Episode IV - A New Hope) where GL stands for the director: George Lucas and the 77 stands for the year it was released: 1977. I think that is a pretty good way to index them, but I am sure there are better ways to do it, but to save time I went with that.
 
 Overall I think that the whole assignment turned out okay, but had I gone a different route from the beginning and just kept the original idea instead of changing it several times, I think that the project would have been a lot better, but I am okay with the result.
+
+
+
+ADD SUPERCLASS AND TWO SUBCLASSES
